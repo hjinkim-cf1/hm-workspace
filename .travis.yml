@@ -19,5 +19,5 @@ install:
 script:
   - export GOPATH=$HOME/gopath/src/github.com/hjinkim-cf1/hm-workspace
   - export PATH=$GOPATH/bin:$PATH
-  - cd $GOPATH/src/github.com/hjinkim-cf1/hm9000
+  - cd $GOPATH/src/github.com/cloudfoundry/hm9000
   - ginkgo -r -trace --randomizeAllSpecs --failOnPending
